@@ -1,7 +1,14 @@
-export default function Cabecalho(){
+export default function Cabecalho({tituloProps,arrayProps}:{tituloProps:string, arrayProps:string[]}){
     return(
-        <div>
-            <header>Cabeçalho</header>
-        </div>
+        <header>
+            <h1>Cabeçalho</h1>
+            <h2>{tituloProps}</h2>
+            <div>
+                {arrayProps.map((item,index) =>{
+                    return <p key={index}>Nome {index}: {item}</p>
+                })}
+            </div>
+        </header>
+        
     );
 }
