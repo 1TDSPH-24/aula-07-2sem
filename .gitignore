@@ -1,0 +1,24 @@
+# Logs
+aula07/logs
+aula07/*.log
+aula07/npm-debug.log*
+aula07/yarn-debug.log*
+aula07/yarn-error.log*
+aula07/pnpm-debug.log*
+aula07/lerna-debug.log*
+
+aula07/node_modules
+aula07/dist
+aula07/dist-ssr
+aula07/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
